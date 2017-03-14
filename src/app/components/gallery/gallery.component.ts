@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
+const imageAssetsPath = '/assets/project-images/';
+
 @Component({
   selector: 'gallery-component',
   templateUrl: './gallery.component.html',
@@ -7,18 +9,19 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class GalleryComponent implements OnInit {
   @Input() images;
+  @Input() coverImage: string;
 
   coverImageSrc: string;
 
   constructor() { }
 
   ngOnInit() {
-    if(Array.isArray(this.images) && this.images.length > 0) {
-      this.coverImageSrc = '/assets/project-images/' + this.images[0];
-    } 
+    this.coverImageSrc = imageAssetsPath + this.coverImage;
   }
 
   openLightBox() {
-    console.log('openLightBox');
+    let imagesArray = this.images.map(image => ({ href: imageAssetsPath + image.src, title: image.title}) );
+
+    (<any>jQuery).swipebox( imagesArray );
   }
 }
