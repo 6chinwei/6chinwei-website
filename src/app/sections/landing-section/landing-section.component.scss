@@ -1,0 +1,56 @@
+@import '../../../scss/variable';
+@import '../../../scss/mixin';
+
+$callingCardWidth: 550px;
+$callingCardHeight: 160px;
+
+.landing-section {
+    position: relative;
+    text-align: center;
+    color: $titleFontColor;
+    font-size: 18px;
+    width: 100vw;
+    height: 100vh;
+    min-height: $callingCardHeight;
+}
+
+.calling-card {
+    position: absolute;
+    width: $callingCardWidth;
+    height: $callingCardHeight;
+    top: calc(50% - #{$callingCardHeight}/2);
+    left: calc(50% - #{$callingCardWidth}/2);
+    padding: 10px 0;
+
+    @include for-size(phone-only) {
+        width: 100%;
+        height: auto;
+        left: 0;
+        right: 0;
+    }
+}
+
+.name {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    
+    @include for-size(phone-only) {
+        width: 90%;
+        height: auto;
+    }
+}
+
+.title, .website-url {
+    font-size: 18px;
+
+    @include for-size(phone-only) {
+        font-size: 16px;
+    }
+}
+
+.social-links {
+    position: absolute;
+    width: 100%;
+    top: calc(50% + #{$callingCardHeight}); 
+}

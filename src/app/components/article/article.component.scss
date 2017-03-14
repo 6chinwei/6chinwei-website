@@ -1,0 +1,13 @@
+.article-component {
+    position: relative;
+    padding-top: 10px;
+
+    .article-content {
+        padding-top: 75px;
+        padding-left: 50px;
+
+        @media (max-width: 767px) {
+            padding-left: 0;
+        }
+    }
+}

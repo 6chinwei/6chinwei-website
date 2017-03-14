@@ -1,0 +1,51 @@
+ // Header 
+$headerHeight: 80px;
+$circleIconSize: $headerHeight * 0.35;
+.header-component {
+  position: absolute;
+  height: $headerHeight;
+  width: 100%;
+}
+
+.circle {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: $headerHeight;
+  width: $headerHeight;
+  background-image: url('/assets/header-circle.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.circle-icon {
+  display: inline-block;
+  position: absolute;
+  top: $headerHeight * 0.5 - $circleIconSize * 0.5;
+  left: $headerHeight * 0.5 - $circleIconSize * 0.5;
+  width: $circleIconSize;
+  height: $circleIconSize;
+}
+
+.title {
+  display: inline-block;
+  position: absolute;
+  top: $headerHeight / 4;
+  left: $headerHeight * 0.9;
+  height: $headerHeight / 2;
+  width: calc(100% - #{$headerHeight * 0.9});
+  background-image: url('/assets/header-title.svg');
+  background-repeat: no-repeat;
+  background-size: $headerHeight*5 $headerHeight/2;
+  h2 {
+    color: #FFF;
+    padding-left: 20px;
+    text-shadow: 1px 1px #333;
+    line-height: $headerHeight / 2;
+    margin: 0;
+    font-weight: normal;
+    font-size: $headerHeight / 4;
+    text-transform: uppercase;
+  }
+}

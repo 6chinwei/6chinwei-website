@@ -1,0 +1,28 @@
+$hexLength: 50px;
+$iconSize: $hexLength * 0.35;
+
+.social-icon-component {
+    display: inline-block;
+    width: $hexLength; /* $length */
+    height: $hexLength * 0.866; /* $length * 0.866 */
+    cursor: pointer;
+    position: relative;
+    background-image: url('/assets/hexagon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    margin: 0 4px;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    & > img {
+        color: #FFF;
+        position: absolute;
+        left: $hexLength * 0.5 - $iconSize * 0.5;
+        top: $hexLength * 0.45 - $iconSize * 0.5;
+        width: $iconSize; 
+        height: $iconSize;
+    }
+}

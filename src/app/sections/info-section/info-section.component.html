@@ -1,0 +1,30 @@
+<div class="info-section">
+    <div class="container">
+        <article-component [title]="experience.title" [icon]="experience.icon">
+            <ul>
+                <li *ngFor="let item of experience.list">
+                    <span class="title">{{ item.jobTitle }}</span><br>
+                    {{ item.company }}<br>
+                    {{ item.period }}<br>
+                </li>
+            </ul>
+        </article-component>
+        <article-component [title]="skill.title" [icon]="skill.icon">
+            <ul>
+                <li *ngFor="let item of skill.list">
+                    <span class="title">{{ item.type }}</span><br>
+                    {{ item.content }}
+                </li>
+            </ul>
+        </article-component>
+        <article-component [title]="education.title" [icon]="education.icon">
+            <ul>
+                <li *ngFor="let item of education.list">
+                    <span class="title">{{ item.school }}</span><br>
+                    {{ item.degree }}<br>
+                    {{ item.period }}<br>
+                </li>
+            </ul>
+        </article-component>
+    </div>
+</div>

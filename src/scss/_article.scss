@@ -1,0 +1,19 @@
+.article-component .article-content {
+    ul {
+        list-style-type: none;
+
+        li {
+            padding-left: 28px;
+            padding-bottom: 8px;
+            background: url('/assets/arrow.gif') no-repeat 0 0;
+        }
+
+        @media (max-width: 767px) {
+            padding-left: 20px;
+        }
+    }
+
+    .title {
+        color: #FFF;
+    }   
+}

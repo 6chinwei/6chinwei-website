@@ -1,0 +1,19 @@
+<div class="project-section">
+    <div class="container">
+        <article-component [title]="project.title" [icon]="project.icon">
+            <div class="row" *ngFor="let item of project.list">
+                <div class="column-content">
+                    <h3 class="project-name">{{ item.name }}</h3>
+                    <ul>
+                        <li *ngFor="let description of item.descriptions">
+                            {{ description }}
+                        </li>
+                    </ul>
+                </div>
+                <div class="column-gallery">
+                    <gallery-component [images]="item.gallery"></gallery-component>
+                </div>
+            </div>
+        </article-component>
+    </div>
+</div>
