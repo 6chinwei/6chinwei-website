@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="527.000000pt" height="768.000000pt" viewBox="0 0 527.000000 768.000000" preserveAspectRatio="xMidYMid meet">
+ <linearGradient id="card-left-border-gradient" x1="0%" y1="100%" x2="100%" y2="0%" gradientTransform="rotate(0)">
+    <stop offset="3%" stop-color="#00397A" />
+    <stop offset="90%" stop-color="#0065C1" />
+    <stop offset="100%" stop-color="#FFF" />
+  </linearGradient>
+  <g transform="translate(0.000000,768.000000) scale(0.100000,-0.100000)" stroke="none">
+    <path d="M3060 7300l0-370 944 0 944 0 71-89 71-89 0-2259 0-2259-65-64-65-64 0-826 0-825-78-78-77-77-835-2-834-3-33-55c-29-48-33-64-33-122l0-68 135 0 135 0 31 50 31 50 758 0 758 0 105 118 106 117 1 715 0 716 50 49 50 49 0 2786 0 2785-83 92-82 92-1002 1-1003 0 0-370z" fill="#00397A"/>
+    <path d="M5183 1840l-33-30 0-718 0-718-111-122-111-122-753 0-752 0-27-40-26-40 809 0 809 0 121 139 121 140 0 770c0 424-3 771-7 771-5 0-23-14-40-30z" fill="#1497FC"/>
+  </g>
+</svg>

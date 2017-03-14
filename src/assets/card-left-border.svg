@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="527.000000pt" height="768.000000pt" viewBox="0 0 527.000000 768.000000" preserveAspectRatio="xMidYMid meet">
+  <linearGradient id="card-left-border-gradient" x1="0%" y1="0%" x2="0%" y2="100%" gradientTransform="rotate(45)">
+    <stop offset="3%" stop-color="#00397A" />
+    <stop offset="50%" stop-color="#0065C1" />
+    <stop offset="100%" stop-color="#FFF" />
+  </linearGradient>
+  <g transform="translate(0.000000,768.000000) scale(0.100000,-0.100000)" fill="url(#card-left-border-gradient)" stroke="none">
+    <path d="M685 7590c-171-175-380-270-595-270l-70 0 0-1494 0-1495 90-141 90-141 0-1813 0-1813 188-185 188-185 709-6c390-4 897-7 1127-7l418 0 0 73c0 70-2 77-41 130l-40 57-1037 0-1037 0-143 143-142 142 0 2981 0 2980 163 192 162 192 1063 0 1062 0 0 365 0 365-942 0c-519 0-986 3-1038 6l-95 7-80-83z"/>
+  </g>
+</svg>
