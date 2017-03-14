@@ -3,15 +3,15 @@ export const skill = {
   icon: 'bar-chart',
   list: [{
     type: '程式語言',
-    content: 'JavaScript, NodeJS, CSS (SCSS), PHP'
+    content: 'JavaScript / CSS (SCSS) / Node.js / PHP'
   },
   {
-    type: '開發框架',
-    content: 'AngularJS / Angular 2 / Vue.JS / Bootstrap'
+    type: '框架&資源庫',
+    content: 'AngularJS / Angular 2 / Bootstrap / jQuery'
   },
   {
     type: '開發工具',
-    content: 'Node.js / Bower / Gulp'
+    content: 'Gulp / Cordova / Docker / Jenkins'
   }
   ]
 };
