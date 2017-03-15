@@ -21,11 +21,11 @@
       "styles": [
         "../node_modules/normalize.css/normalize.css",
         "styles.scss",
-        "../node_modules/swipebox/src/css/swipebox.min.css"
+        "./assets/plugins/swipebox/css/swipebox.css"
       ],
       "scripts": [
         "../node_modules/swipebox/lib/jquery-2.1.0.min.js",
-        "../node_modules/swipebox/src/js/jquery.swipebox.min.js"
+        "./assets/plugins/swipebox/js/jquery.swipebox.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
