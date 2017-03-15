@@ -589,6 +589,10 @@
 				}
 
 				$( '#swipebox-close' ).bind( action, function(event) {
+					// Fix for mobile touching
+					event.preventDefault();
+					event.stopPropagation();
+
 					$this.closeSlide();
 				} );
 			},
