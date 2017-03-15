@@ -17,6 +17,10 @@ body {
 a {
   color: $fontColor;
   text-decoration: none;
+
+  &:hover, &:focus {
+    color: #0065C1;
+  }
 }
 
 h1, h2, h3, h4 {

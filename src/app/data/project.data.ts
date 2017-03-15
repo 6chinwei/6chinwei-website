@@ -1,6 +1,6 @@
 export const project = {
-    title: 'Projects',
-    icon: 'code',
+    title: '作品',
+    icon: 'thumbs-up',
     list: [
         {
             name: 'Quantum EHS',

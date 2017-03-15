@@ -1,20 +1,32 @@
 export const experience = {
-  title: 'Experience',
+  title: '工作經歷',
   icon: 'code',
   list: [{
     jobTitle: '前端工程師',
     company: 'Logic Solutions, Inc',
-    period: '2014 年 8 月 - 2017 年 2 月'
+    companyUrl: 'http://logicsolutions.com.tw',
+    period: '2014.08 - 2017.02 ( 2 年 6 個月 )',
+    description: [
+      
+    ]
   },
   {
     jobTitle: '課程助教',
     company: '台灣大學「視覺化在工程上之應用」課程',
-    period: '2013 年 2 月 - 2013 年 7 月'
+    companyUrl: "",
+    period: '2013.02 - 2013.07 ( 6 個月 )',
+    description: [
+      
+    ]
   },
   {
     jobTitle: '實習生',
     company: 'IBM',
-    period: '2012 年 9 月 - 2012 年 12 月'
+    period: '2012.09 - 2012.12 ( 4 個月 )',
+    companyUrl: "",
+    description: [
+      
+    ]
   }
   ]
 }

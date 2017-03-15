@@ -1,7 +1,7 @@
 <div class="project-section">
     <div class="container">
         <article-component [title]="project.title" [icon]="project.icon">
-            <div class="row" *ngFor="let item of project.list">
+            <div class="row" *ngFor="let item of project.list; let last = last">
                 <div class="column-content">
                     <h3 class="project-name">{{ item.name }}</h3>
                     <ul>
@@ -13,6 +13,7 @@
                 <div class="column-gallery">
                     <gallery-component [coverImage]="item.coverImageSrc" [images]="item.gallery"></gallery-component>
                 </div>
+                <hr [hidden]="last">
             </div>
         </article-component>
     </div>

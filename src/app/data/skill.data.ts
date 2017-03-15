@@ -1,9 +1,9 @@
 export const skill = {
-  title: 'Skills',
+  title: '技能 & 專長',
   icon: 'bar-chart',
   list: [{
     type: '程式語言',
-    content: 'JavaScript / CSS (SCSS) / Node.js / PHP'
+    content: 'JavaScript / SCSS (CSS) / Node.js / PHP'
   },
   {
     type: '框架&資源庫',
@@ -11,7 +11,7 @@ export const skill = {
   },
   {
     type: '開發工具',
-    content: 'Gulp / Cordova / Docker / Jenkins'
+    content: 'Gulp / Git / Cordova / Docker / Jenkins / E2E Test'
   }
   ]
 };
