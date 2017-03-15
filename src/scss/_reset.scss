@@ -6,7 +6,7 @@ body {
   background-color: $backgroundColor;
   color: $fontColor;
   box-sizing: border-box;
-  min-width: 360px;
+  min-width: $bodyMinWidth;
   font-size: $fontSize;
 
   * {

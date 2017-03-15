@@ -20,14 +20,22 @@
 <body>
   <app-root>
     <style>
-      .loading-page {
+      body {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        text-align: center;
+        font-size: 18px;
+        min-height: 160px;
+      }
+
+      .calling-card {
         position: absolute;
         width: 550px;
         height: 160px;
         top: calc(50% - 160px/2);
         left: calc(50% - 550px/2);
         padding: 10px 0;
-        text-align: center;
       }
 
       .name {
@@ -39,7 +47,7 @@
       }
 
       @media (max-width: 767px) {
-        .loading-page { 
+        .calling-card { 
           width: 100%;
           height: auto;
           left: 0;
@@ -57,7 +65,7 @@
         to {opacity: 1;}
       }
     </style>
-    <div class="loading-page">
+    <div class="calling-card">
       <img class="name" src="./assets/ChinWeiLiu.svg" alt="CHIN-WEI LIU"/>
     </div>
   </app-root>

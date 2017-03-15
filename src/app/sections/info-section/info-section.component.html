@@ -3,7 +3,10 @@
         <article-component [title]="experience.title" [icon]="experience.icon">
             <ul>
                 <li *ngFor="let item of experience.list">
-                    <span class="title">{{ item.jobTitle }}</span>&nbsp;<a class="company" [href]="item.companyUrl" target="_blank">{{ item.company }}</a><br>
+                    <span class="title">{{ item.jobTitle }}</span>&nbsp;
+                    <a class="company" [hidden]="!item.companyUrl" [href]="item.companyUrl" target="_blank">{{ item.company }}</a>
+                    <span class="company" [hidden]="item.companyUrl">{{ item.company }}</span>
+                    <br>
                     {{ item.period }}<br>
                 </li>
             </ul>

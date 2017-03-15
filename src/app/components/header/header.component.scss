@@ -1,6 +1,7 @@
  // Header 
 $headerHeight: 80px;
 $circleIconSize: $headerHeight * 0.35;
+
 .header-component {
   position: absolute;
   height: $headerHeight;
@@ -38,6 +39,7 @@ $circleIconSize: $headerHeight * 0.35;
   background-image: url('/assets/header-title.svg');
   background-repeat: no-repeat;
   background-size: $headerHeight*5 $headerHeight/2;
+
   h2 {
     color: #FFF;
     padding-left: 20px;

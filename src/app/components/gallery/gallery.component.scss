@@ -1,5 +1,7 @@
+@import '../../../scss/variable';
+
 $galleryWidth: 480px;
-$galleryMinWidth: 340px;
+$galleryMinWidth: $bodyMinWidth - 20px;
 
 .gallery-component {
     position: relative;
