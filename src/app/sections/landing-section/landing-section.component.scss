@@ -47,10 +47,21 @@ $callingCardHeight: 160px;
     @include for-size(xs-only) {
         font-size: 16px;
     }
+
+    animation-name: fadein;
+    animation-duration: 2s;    
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .social-links {
     position: absolute;
     width: 100%;
     top: calc(50% + #{$callingCardHeight}); 
+
+    animation-name: fadein;
+    animation-duration: 2s;
 }
