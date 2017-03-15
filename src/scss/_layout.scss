@@ -1,19 +1,21 @@
+@import './mixin';
+
 .container {
     display: block;
     margin-right: auto;
     margin-left: auto;
 
-    @media (min-width: 768px) {
+    @include for-size(sm-up) {
         padding-left: 15px;
         padding-right: 15px; 
         width: 750px;
     }
 
-    @media (min-width: 992px) {
+    @include for-size(md-up) {
         width: 970px;
     }
 
-    @media (min-width: 1200px) {
+    @include for-size(lg-up) {
         width: 1170px;
     }
 }

@@ -22,7 +22,7 @@ $callingCardHeight: 160px;
     left: calc(50% - #{$callingCardWidth}/2);
     padding: 10px 0;
 
-    @include for-size(phone-only) {
+    @include for-size(xs-only) {
         width: 100%;
         height: auto;
         left: 0;
@@ -35,7 +35,7 @@ $callingCardHeight: 160px;
     width: 100%;
     height: auto;
     
-    @include for-size(phone-only) {
+    @include for-size(xs-only) {
         width: 90%;
         height: auto;
     }
@@ -44,7 +44,7 @@ $callingCardHeight: 160px;
 .title, .website-url {
     font-size: 18px;
 
-    @include for-size(phone-only) {
+    @include for-size(xs-only) {
         font-size: 16px;
     }
 }

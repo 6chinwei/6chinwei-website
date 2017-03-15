@@ -1,3 +1,5 @@
+@import './mixin';
+
 .article-component .article-content {
     ul {
         list-style-type: none;
@@ -9,12 +11,13 @@
             background: url('/assets/arrow.gif') no-repeat 0 0;
         }
 
-        @media (max-width: 767px) {
+        @include for-size(xs-only) {
             padding-left: 20px;
         }
     }
 
     .title {
         color: #FFF;
+        font-weight: bold;
     }   
 }

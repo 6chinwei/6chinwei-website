@@ -1,13 +1,16 @@
-@mixin for-size($range) {
-  $phone-upper-boundary: 600px;
-  $tablet-upper-boundary: 900px;
-  $desktop-upper-boundary: 1200px;
+@import './variable';
 
-  @if $range == phone-only {
-    @media (max-width: #{$phone-upper-boundary - 1}) { @content; }
-  } @else if $range == tablet-up {
-    @media (min-width: $phone-upper-boundary) { @content; }
-  } @else if $range == desktop-up {
-    @media (min-width: $tablet-landscape-upper-boundary) { @content; }
+@mixin for-size($range) {
+
+  @if $range == xs-only {
+    @media (max-width: #{$screen-xs-max}) { @content; } // < 768
+  } @else if $range == sm-up {
+    @media (min-width: $screen-sm-min) { @content; } // >= 768
+  } @else if $range == md-up {
+    @media (min-width: $screen-md-min) { @content; } // >= 992
+  } @else if $range == lg-down {
+    @media (max-width: $screen-md-max) { @content; } // < 1200
+  } @else if $range == lg-up {
+    @media (min-width: $screen-lg-min) { @content; } // >= 1200
   }
 }

@@ -1,3 +1,5 @@
+@import '../../../scss/mixin';
+
 .project-section {
     position: relative;
     text-align: left;
@@ -11,6 +13,10 @@
     line-height: 2;
     margin-top: 8px;
     padding-left: 30px;
+
+    @include for-size(xs-only) {
+        padding-left: 20px;
+    }
 }
 
 .row {
@@ -21,6 +27,10 @@
     flex: 1 1;
     padding-right: 10px;
     min-width: 360px;
+
+    @include for-size(sm-up) {
+        min-width: 600px;
+    }
 }
 
 .column-gallery {
@@ -30,7 +40,7 @@
     justify-content: center;
     display: flex;
 
-    @media (max-width: 991px) {
+    @include for-size(lg-down) {
         max-width: none;
     }
 }

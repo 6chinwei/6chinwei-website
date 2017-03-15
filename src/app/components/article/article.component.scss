@@ -1,3 +1,5 @@
+@import '../../../scss/mixin';
+
 .article-component {
     position: relative;
     padding-top: 10px;
@@ -6,7 +8,7 @@
         padding-top: 75px;
         padding-left: 50px;
 
-        @media (max-width: 767px) {
+        @include for-size(xs-only) {
             padding-left: 0;
         }
     }
