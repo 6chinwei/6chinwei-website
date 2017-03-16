@@ -4,9 +4,17 @@
             <div class="row" *ngFor="let item of project.list; let last = last">
                 <div class="column-content">
                     <h3 class="project-name">{{ item.name }}</h3>
-                    <ul>
-                        <li *ngFor="let description of item.descriptions" [innerHTML]="description"></li>
-                    </ul>
+                    <div class="key-words">
+                        <ul>
+                            <li *ngFor="let keyword of item.keywords">{{ keyword }}</li>
+                        </ul>
+                    </div>
+                    <div class="descriptions">
+                        <ul>
+                            <li *ngFor="let description of item.descriptions" [innerHTML]="description"></li>
+                        </ul>
+                    </div>
+                    
                 </div>
                 <div class="column-gallery">
                     <gallery-component [coverImage]="item.coverImageSrc" [images]="item.gallery"></gallery-component>

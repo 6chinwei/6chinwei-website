@@ -14,12 +14,37 @@
     font-size: 20px;
     line-height: 2;
     margin-top: 8px;
-    padding-left: 30px;
+    padding-left: 20px;
 
     @include for-size(xs-only) {
         padding-left: 20px;
     }
 }
+
+.key-words {
+    ul {
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    li {
+        display: inline-block;
+        line-height: 1;
+        padding: 4px 8px;
+        margin-right: 3px;
+        font-size: 12px;
+        background-color: #EEE;
+        background-image: none;
+        border-radius: 6px;
+        color: #000D20;
+        text-shadow: 1px 1px 1px #999;
+    }
+}
+
+.descriptions ul {
+    padding-left: 15px;
+}
+
 
 .row {
     margin-bottom: 20px;
