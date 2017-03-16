@@ -15,11 +15,11 @@ body {
 }
 
 a {
-  color: $fontColor;
+  color: #46a6fd;
   text-decoration: none;
 
-  &:hover, &:focus {
-    color: #0065C1;
+  &:hover {
+    color: #00DEFB;
   }
 }
 

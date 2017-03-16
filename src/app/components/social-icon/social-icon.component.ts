@@ -11,7 +11,7 @@ export class SocialIconComponent implements OnInit {
   iconSrc: string;
 
   ngOnInit() {
-    this.iconSrc = 'assets/icons/' + this.icon + '.svg';
+    this.iconSrc = 'assets/icons.svg#' + this.icon;
   }
 
 }
