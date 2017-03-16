@@ -62,8 +62,7 @@ export const project = {
                 'Video-enable Dynamic Site Planner 是一套虛擬實境的工地模擬軟體，讓工地的工程師可以透過現地的即時影片，進行動態物體的3D建模，並將建立好的 3D 模型整合到一虛擬工地中。',
                 '我在 2014 年完成此程式的開發，同時也是我的碩士畢業論文，指導教授為康仕仲教授。',
                 '本研究使用 Unity3D 遊戲引擎做為開發工具，主要開發的語言為 C#。',
-                '本研究提出一個方法從單一的工地影片中快速取得現地物體的資料，並整合到虛擬的工地中，利用虛擬的工地來進行工地作業的模擬，以幫助工程師做出符合實際情況的模擬與規劃。',
-                '本研究也於 2014 年 6 月 23 日發表到國際研討會－ICCCBE 2014，<a href="http://ascelibrary.org/doi/abs/10.1061/9780784413616.194" target="_blank">點此前往 ASCE Library 查看文章</a>'
+                '本研究已於 2014 年 6 月 23 日發表到國際研討會－ICCCBE 2014，<a href="http://ascelibrary.org/doi/abs/10.1061/9780784413616.194" target="_blank">點此前往 ASCE Library 查看文章</a>'
             ],
             coverImageSrc: 'site-planner/cover.jpeg',
             gallery: [
