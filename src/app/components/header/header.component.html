@@ -1,8 +1,8 @@
 <div class="header-component">
-    <div class="circle">
-      <img class="circle-icon" [src]="iconSrc">
-    </div>
-    <div class="title">
-      <h2>{{ title }}</h2>
-    </div>
+  <div class="circle">
+    <svg class="circle-icon"><use [attr.xlink:href]="iconSrc"/></svg>
   </div>
+  <div class="title">
+    <h2>{{ title }}</h2>
+  </div>
+</div>

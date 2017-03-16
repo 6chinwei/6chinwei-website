@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.iconSrc = 'assets/icons/' + this.icon + '.svg';
+    this.iconSrc = 'assets/icons.svg#' + this.icon;
   }
 
 }
