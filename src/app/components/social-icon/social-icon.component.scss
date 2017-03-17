@@ -17,6 +17,10 @@ $iconSize: $hexLength * 0.35;
 
     &:hover {
         opacity: 1;
+
+        .tooltip {
+            display: inline-block;
+        }
     }
 
     & > svg {
@@ -33,3 +37,33 @@ $iconSize: $hexLength * 0.35;
         opacity: 1;
     }
 }
+
+.tooltip {
+    // display: inline-block;
+    display: none;
+    width: auto;
+    background-color: #EEE;
+    color: #000D20;
+    text-shadow: 1px 1px 1px #999;
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: 6px;
+    position: absolute;
+    font-size: 12px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent #EEE transparent;
+    }
+}
+
