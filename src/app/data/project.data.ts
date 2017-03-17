@@ -7,9 +7,9 @@ export const project = {
             keywords: ['AngularJS', 'SCSS', 'Cordova', 'Jenkins'],
             year: '2015 ~ 2017',
             descriptions: [
-                'Quantum EHS 是一套給企業使用的環境衛生安全(EHS)雲端管理軟體',
+                'Quantum EHS 是一套給企業使用的環境衛生安全(EHS)雲端管理軟體，採前後端分離的架構，透過 RESTful API 來溝通。',
                 '前端使用 AngularJS 為開發框架；使用 SCSS 作為 CSS 的前處理器；使用 Gulp 作為自動化處理工具',
-                '在團隊中除了負責前端開發工作之外，同時也擔任開發團隊的負責人，負責分配開發工作，並隨時掌握團隊的開發進度',
+                '在團隊中除了負責前端開發工作之外，同時也擔任開發團隊的負責人，負責協調前後端工作與時程安排，並隨時掌握團隊的開發進度',
                 '成功導入持續整合(CI)：設定自動化佈署簡化佈署工作，建立自動化測試確保程式碼品質。前端使用 Karma 撰寫單元測試、使用 Protractor 與 Selenium IDE 撰寫 E2E 測試。整套 CI 流程是架設在 AWS EC2 上，使用 Jenkins 來管理',
                 '<a href="http://demo-qcs.6chinwei.cc" target="_blank">點此前往 Demo 網站</a>'
             ],
@@ -27,7 +27,7 @@ export const project = {
             link: null,
             descriptions: [
                 'LVAD 是一套醫療裝置的追蹤與管理系統，包含 iOS App 與管理後台',
-                'iOS App 使用 Ionic 為主要開發框架。管理後台則是使用 PHP 的 Laravel 為主要開發框架',
+                'iOS App 使用 Ionic 為主要開發框架。管理後台則是使用 PHP Laravel 為主要開發框架',
                 '在團隊中負責 iOS App 的開發與上架發佈'
             ],
             coverImageSrc: 'lvad/cover.jpeg',
